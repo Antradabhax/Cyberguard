@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Reporte</title>
+    <link rel="stylesheet" href="report.css">
+    <script src="report.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Reporte</h2>
+        <form id="reportForm">
+            <label for="tipoContenido">Tipo de Contenido *</label>
+            <input type="text" id="tipoContenido" name="tipoContenido" readonly required>
+
+            <label for="contenidoReportar">Contenido a Reportar *</label>
+            <input type="text" id="contenidoReportar" name="contenidoReportar" placeholder="URL, email, teléfono" readonly required>
+
+            <label for="queSimula">¿Qué Simula? *</label>
+            <select id="queSimula" name="queSimula" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Entidad Bancaria">Entidad Bancaria</option>
+                <option value="Servicio de Correo">Servicio de Correo</option>
+                <option value="Compañía telefónica">Compañía telefónica</option>
+                <option value="Ecommerce">Ecommerce</option>
+                <option value="otro">Otros</option>
+            </select>
+
+            <label for="descripcion">Descripción *</label>
+            <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+            <button type="submit">Enviar Reporte</button>
+        </form>
+    </div>
+</body>
+</html>
