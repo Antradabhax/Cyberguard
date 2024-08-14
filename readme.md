@@ -10,7 +10,7 @@ Permitiendo así que los usuarios logren realizar las acciones necesarias.
 En primera instancia se requiere clonar el repositorio.
 
 ```bash
-git clone https://github.com/MatheoLCaneva/BackendSeminario.git
+git clone https://github.com/Antradabhax/BackendSeminario.git
 ```
 
 ### Dependencias
